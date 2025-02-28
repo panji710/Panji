@@ -1,10 +1,8 @@
 <?php
-session_start(); 
-
 $host = "localhost";
 $user = "root"; 
 $pass = ""; 
-$dbname = "projek ukl"; 
+$dbname = "projek ukl";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 

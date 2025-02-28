@@ -1,5 +1,6 @@
 <?php
 session_start();
 session_destroy();
-header("Location: logout.html");
+header("Location: ukl2.html");
+exit;
 ?>

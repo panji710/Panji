@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang Kami - TekPanjull</title>
-    <link rel="stylesheet" href="tentangcss.css">
+    <link rel="stylesheet" href="csstntng.css">
 </head>
 <body>
     <header>
@@ -95,6 +95,71 @@
         </section>
     </main>
 
+    <style>
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0 20px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-content h3 {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.social-media a, .quick-links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover, .quick-links a:hover {
+    color: #007bff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .service-items {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+    </style>
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -110,12 +175,11 @@
                     <a href="https://www.instagram.com/fyxx_jull/profilecard/?igsh=aXBrdTR6cGxjNnQx">Instagram</a>
                     <a href="https://www.tiktok.com/@panjulllcott?_t=8rp7sBwrqJ5&_r=1">TikTok</a>
                 </div>
-                <div class="newsletter">
-                    <h3>Langganan TekPanjull</h3>
-                    <form>
-                        <input type="email" placeholder="Email Anda" required>
-                        <button type="submit">Daftar</button>
-                    </form>
+                <div class="quick-links">
+                    <h3>Tautan Cepat</h3>
+                    <a href="#home">Beranda</a>
+                    <a href="tentang.html">Tentang Kami</a>
+             
                 </div>
             </div>
             <div class="footer-bottom">
